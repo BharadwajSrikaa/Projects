@@ -30,6 +30,6 @@ if r.status_code == 200:
         shutil.copyfileobj(r.raw, f)
     # now we have successfully downloaded the image we just have to give the indication that
     # image has been downloaded
-    print("The Image has been successfully downloaded at ", filename)
+    print("The Image has been successfully downloaded with name :  ", filename)
 else:
     print("Ths Image could't be retrived")
